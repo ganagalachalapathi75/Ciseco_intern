@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body,
+h1,
+p,
+input,
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-family: "Roboto";
+    color: red;
+    padding-left: 20px;
+}
+
+.Home-para {
+    padding-left: 20px;
+}
+
+.header-title {
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-brands {
+    flex: 2;
+}
+
+.brand-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand-item {
+    margin: 0 10px;
+}
+
+.header-controls {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-button {
+    background-color: #FF9900;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    border: none;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+.card-image {
+    width: 120px;
+    height: auto;
+}
+
+
+.main-heading {
+    color: red;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.address-card {
+    border: 1px solid #ccc;
+    padding: 0px;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h6 {
+    padding-right: 20px;
+
+}
+
+.add-item {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.cost-item {
+    font-size: bold;
+
+}
+
+.Remove {
+    padding-left: 200px;
+}
+
+.payment-button {
+    color: #fff;
+    background-color: darkblue;
+    width: 220px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 18px;
+
+}
+
+.payment-button2 {
+    color: #fff;
+    background-color: darkblue;
+    width: 300px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 18px;
+}
+
+.total {
+    padding-top: 30px;
+}
+
+.sub {
+    padding-left: 150px;
+}
+
+.brand-item {
+    color: #fff;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.order-total {
+    font-weight: bold;
+}
+
+.card-button {
+    padding-left: 200px;
+}
+
+
+
+.button-1 {
+    padding-left: 120px;
+}
+
+.payment-details {
+    padding-left: 25px;
+}
+
+.para {
+    padding-left: 250px;
+    padding-top: 10px;
+}
+
+.payment-method {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.order-summary-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border: none;
+    padding-top: 40px;
+
+}
+
+.order-summary-card img {
+    max-width: 100px;
+    height: auto;
+    padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+
+    .payment-method,
+    .order-summary-card {
+        padding: 10px;
+    }
+
+    .address-section h2 {}
+
+    .address-section label {
+        display: block;
+    }
+
+    .address-section input[type="text"],
+    .address-section select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+    }
+
+    .address-section button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+
+    @media (max-width: 767px) {
+        .address-section {
+            padding: 10px;
+        }
+    }
+
+    .order-summary {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .order-summary h2 {}
+
+    .order-summary label {
+        display: block;
+    }
+
+    .order-summary input[type="text"],
+    .order-summary select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .order-summary button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .order-summary .total-section {
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+    }
+
+    @media (max-width: 767px) {
+        .order-summary {
+            padding: 10px;
+        }
+    }
+
+    .payment-method {
+        border: 1px solid #ccc;
+        padding: 0px;
+    }
+
+    .payment-method h2 {}
+
+    .payment-method labe border-radius: 4px;
+}
+
+.payment-method button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .payment-method {
+        padding: 10px;
+    }
+}
+
+l {
+    display: block;
+
+}
+
+.payment-method input[type="text"],
+.payment-method select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.bottom-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00ffff;
+}
+
+.card_1 {
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: start;
+    padding-top: 40px;
+    border: none;
+}
+
+
+.footer-social {
+    margin-bottom: 20px;
+
+
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+
+
+}
+
+.footer-icons {
+    font-size: 24px;
+
+}
